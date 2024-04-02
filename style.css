@@ -1,0 +1,71 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #222831;
+}
+header {
+  text-align: center;
+}
+#name {
+  font-size: 50px;
+  border-bottom: 5px solid #dff5ff;
+  display: inline-block;
+  color: #dff5ff;
+}
+.outer {
+  margin: 30px;
+  margin-bottom: 50px;
+}
+.outer:hover {
+  cursor: not-allowed;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.inner {
+  width: 150px;
+  height: 150px;
+  background-color: #dff5ff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgb(179, 179, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+.inner:hover {
+  cursor: pointer;
+}
+.round {
+  color: #007f73;
+}
+.cross {
+  color: #5d0e41;
+}
+.result {
+  text-align: center;
+  color: #dff5ff;
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#winner {
+  margin: 0;
+}
+#reset {
+  background-color: #dff5ff;
+  color: #222831;
+  display: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
